@@ -39,12 +39,15 @@ switch (month) {
   case 9:
     document.write('September');
     break;
+
   case 10:
     document.write('October');
     break;
+
   case 11:
     document.write('November');
     break;
+
   case 12:
     document.write('December');
     break;
