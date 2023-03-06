@@ -2,10 +2,14 @@
 
 // 7 -> seven
 
-var month = 2;
+var month = 1;
 switch (month) {
   case 1:
     document.write('January');
+    break;
+
   case 2:
-    document.write('Febuary');
+    document.write('February');
 }
+
+// if you don't break it case 1 and case 2 will display both
