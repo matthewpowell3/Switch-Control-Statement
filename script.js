@@ -2,7 +2,7 @@
 
 // 7 -> seven
 
-var month = 5;
+var month = -5;
 switch (month) {
   case 1:
     document.write('January');
@@ -53,4 +53,5 @@ switch (month) {
     break;
 }
 
+// default will happen if the number is greater than 12 or less than or equal to zero -5
 // if you don't break it case 1 and case 2 will display both
