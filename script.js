@@ -1,9 +1,10 @@
 // Switch Control Statement
 
 // 7 -> seven
+// number to string
 
 /*
-var month = 0;
+var month = 2;
 switch (month) {
   case 1:
     document.write('January');
@@ -61,6 +62,7 @@ switch (month) {
 // default will happen if the number is greater than 12 or less than or equal to zero -5
 // if you don't break it case 1 and case 2 will display both
 
+/*
 var month = 'June';
 switch (month) {
   case 'June':
@@ -73,4 +75,20 @@ switch (month) {
 
   default:
     document.write('No month with this number');
+} */
+
+/*
+var month = true;
+switch (month) {
+  case true:
+    document.write(1);
+    break;
+
+  case false:
+    document.write(0);
+    break;
+
+  default:
+    document.write('No month with this number');
 }
+*/
